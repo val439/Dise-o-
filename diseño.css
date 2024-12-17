@@ -1,0 +1,184 @@
+:root {
+    --primary-color: #6a0dad;
+    --secondary-color: #4a0080;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+header p {
+    color: var(--secondary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+nav button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: var(--secondary-color);
+}
+
+.hidden {
+    display: none;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.miembros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.miembro {
+    text-align: center;
+    width: 200px;
+}
+
+.miembro img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.red-social {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.twitter { background-color: #1DA1F2; }
+.instagram { background-color: #C13584; }
+.youtube { background-color: #FF0000; }
+
+body {
+    background-image: url('fondo.png');
+    background-repeat: repeat-y; /* Esto hace que el fondo se repita solo en el eje Y (vertical) */
+    background-attachment: fixed; /* Esto mantiene el fondo fijo mientras se hace scroll */
+    background-size: cover; /* Esto asegura que el fondo cubra el área */
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black; 
+        }
+
+        header {
+            background-color: #a2d2ff;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        button {
+            margin: 0 10px;
+            padding: 10px 15px;
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 5px;
+            color: black; 
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a2d2ff;
+            color: white; 
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .seccion-info {
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .seccion-info img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: black; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    
